@@ -201,10 +201,10 @@ RSpec.describe 'Strings' do
     expect(actual).to eq(expected)
   end
 
-  xit 'test 23' do
+  it 'test 23' do
     phrase = "  \n\t to the moon\n\n\t    "
     # In place of the line below, call a method to acheive the expected outcome
-    actual = ________
+    actual = phrase.strip
     expected = "to the moon"
 
     expect(actual).to eq(expected)
