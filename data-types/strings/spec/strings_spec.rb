@@ -171,12 +171,12 @@ RSpec.describe 'Strings' do
     expect(actual).to eq(expected)
   end
 
-  xit 'test 20' do
+  it 'test 20' do
     greeting = "Hello World, my name is"
     name = "Harry Potter"
     # In place of the line below, use string manipulation to combine the
     #greeting and name variables to acheive the expected outcome
-    actual = _________
+    actual = "#{greeting} #{name}"
     expected = "Hello World, my name is Harry Potter"
 
     expect(actual).to eq(expected)
