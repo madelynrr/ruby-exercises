@@ -162,10 +162,10 @@ RSpec.describe 'Strings' do
     expect(actual).to eq(expected)
   end
 
-  xit 'test 19' do
+  it 'test 19' do
     greeting = "Hello World!"
     # In place of the line below, call a method to check if the string includes 'lol'
-    actual = greeting._____
+    actual = greeting.include?('lol')
     expected = false
 
     expect(actual).to eq(expected)
