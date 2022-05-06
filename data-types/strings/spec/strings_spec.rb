@@ -135,10 +135,10 @@ RSpec.describe 'Strings' do
     expect(actual).to eq(expected)
   end
 
-  xit 'test 16' do
+  it 'test 16' do
     greeting = "Hello World!"
     # In place of the line below, call a method to get the number of 'o' in the string
-    actual = greeting._____
+    actual = greeting.count('o')
     expected = 2
 
     expect(actual).to eq(expected)
