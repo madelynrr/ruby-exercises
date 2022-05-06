@@ -99,10 +99,10 @@ RSpec.describe 'Strings' do
     expect(actual).to eq(expected)
   end
 
-  xit 'test 12' do
+  it 'test 12' do
     rhyme = "eeny, meeny, miny, moe"
     # In place of the line below, call a method to achieve the expected output.
-    actual = rhyme._____
+    actual = rhyme.delete('eio')
     expected = "ny, mny, mny, m"
 
     expect(actual).to eq(expected)
