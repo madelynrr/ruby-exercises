@@ -63,10 +63,10 @@ RSpec.describe 'Strings' do
     expect(actual).to eq(expected)
   end
 
-  xit 'test 8' do
+  it 'test 8' do
     greeting = "Hello!!"
     # In place of the line below, call a method to achieve the expected output.
-    actual = greeting._____
+    actual = greeting.chop
     expected = "Hello!"
 
     expect(actual).to eq(expected)
